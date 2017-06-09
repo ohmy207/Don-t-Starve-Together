@@ -19,6 +19,7 @@ tar -xvzf steamcmd_linux.tar.gz
 mkdir -p ~/.klei/DoNotStarveTogether/MyDediServer/Master
 mkdir -p ~/.klei/DoNotStarveTogether/MyDediServer/Caves
 
+cd -
 echo $STEAM_KEY > ~/.klei/DoNotStarveTogether/MyDediServer/cluster_token.txt
 base64 -d ./cluster.ini > ~/.klei/DoNotStarveTogether/MyDediServer/cluster.ini
 base64 -d ./server.ini > ~/.klei/DoNotStarveTogether/MyDediServer/Master/server.ini
